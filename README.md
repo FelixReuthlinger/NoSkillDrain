@@ -1,22 +1,15 @@
-# Github Repository Template for Valheim modding
+# No Skill Drain
 
-Create your own mod using this template as a starting point for your mod.
+This does the exact same as if you would die twice within short period of time, where also no skill drain is active as a
+buf. The difference is that this mod doesn't need the buff active, but will just adjust the skill lowering on death.
 
 ## Features
 
-* You will need to rename the solution and .csproj, same as namespace and classes and files to your own names
-* Has debug build feature that puts the dll into BepInEx installed inside Valheim
-* Has run the game feature for running your debug version locally
-* Has release build feature to package everything ready to upload to ThunderStore as zip file in your local user home
-  Downloads folder
-  * Prepared contents inside ThunderStorePackage folder
-  * replace the icon.png with any other 256x256 pixel png file
-  * edit the manifest.json file
-  * remove or replace the empty files inside config and plugins folders
-  * it will put the README.md (this content) and CHANGELOG.md from root folder also into the zip
+* Config synced (server sync)
+* Optionally you can also change the config value that is set to -100 (%) per default.
+* Values bigger -100 will act as a multiplier to the skill drain.
 
-# Credits
+## Contact
 
-* I did follow some hints by [AzumattDev](https://github.com/AzumattDev) from his
-  [YouTube session on how to create a template](https://www.youtube.com/watch?v=gSL31r2AgrI).
-* Having had a look at some people's setups for .csproj
+* https://github.com/FelixReuthlinger/no-skill-drain
+* Discord: Flux#0062 (you can find me around some of the Valheim modding discords, too)
