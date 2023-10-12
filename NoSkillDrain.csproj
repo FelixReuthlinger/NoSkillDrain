@@ -102,7 +102,6 @@
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <ItemGroup>
-        <Content Include=".gitignore" />
         <Content Include="CHANGELOG.md" />
         <Content Include="ILRepack.targets" />
         <Content Include="README.md" />
@@ -110,7 +109,6 @@
         <Content Include="ThunderStorePackage\manifest.json" />
     </ItemGroup>
     <ItemGroup>
-      <None Include="App.config" />
       <None Include="packages.config" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
