@@ -12,7 +12,7 @@ namespace NoSkillDrain;
 public class NoSkillDrainPlugin : BaseUnityPlugin
 {
     public const string ModName = "NoSkillDrain";
-    public const string ModVersion = "1.2.0";
+    public const string ModVersion = "1.2.1";
     private const string ModAuthor = "FixItFelix";
     private const string ModGuid = ModAuthor + "." + ModName;
 

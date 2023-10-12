@@ -1,3 +1,4 @@
+* 1.2.1 -> compiled against 0.217.24 and updated server sync
 * 1.2.0 ->
     * updated for Valheim version 0.216.9
     * config file name did change
